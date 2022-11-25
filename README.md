@@ -3,5 +3,4 @@ Todos os exercicios tecnicos feitos durante o curso de HTML e CSS para iniciante
 
 ## Sites importantes para a realização do curso:
 
-Unsplash
-Squoosh
+Unsplash, Squoosh
