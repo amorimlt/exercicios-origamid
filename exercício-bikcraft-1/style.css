@@ -138,3 +138,31 @@ p {
 .vantagens-item p {
   grid-column: 2;
 }
+
+@media (max-width: 750px) {
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+  .introducao::before {
+    content: none;
+  }
+  .introducao {
+    justify-items: center;
+  }
+  p {
+    text-align: center;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+  .menu a {
+    padding: 0.30rem 0.30rem;
+  }
+}
+
+@media (max-width: 870px) {
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
